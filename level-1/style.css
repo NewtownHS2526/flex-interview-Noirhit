@@ -1,18 +1,22 @@
 body {
-    margin: 0px;
-  }
-  
-.sidebar {
-    width: 150px;
-    background-color: green;
-    color: whitesmoke;
-    height: 100vh;
-    padding: 20px;
+  margin: 0;
 }
-  
+
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  background-color: green;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;  /* <-- THIS spaces them like your screenshot */
+  align-items: center;            /* centers text horizontally */
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+}
+
 .item {
-    font-weight: bold;
-    margin: 10px;
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
-      "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
 }
